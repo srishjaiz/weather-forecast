@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './App.module.css';
 import Logo from './components/Logo/Logo';
+import WeatherLoader from './components/WeatherLoader/WeatherLoader';
 // import axios from 'axios';
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
         <Logo/> 
       </header>
       <main>
-        Main
+        <WeatherLoader/>
       </main>
     </div>
   );
