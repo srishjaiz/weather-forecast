@@ -1,0 +1,7 @@
+.WeatherLoader{
+    height: 100%;
+    background-image: linear-gradient(#DE86A3, #5D5FF3);
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
