@@ -1,0 +1,94 @@
+.Current{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    flex-flow: column;
+    background-image: url(/background-dark.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px 12px 0 0;
+    color: white;
+    font-size: 18px;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 8px 1px #2B244D;
+    text-shadow: 1px 1px 4px #000;
+}
+.CurrentDetails{
+    order: 2;
+    width: 100%;
+}
+.CurrentDetails p{
+    margin: 0;
+    margin-bottom: 8px;
+}
+.CurrentCitynDate > p{
+    margin: 0;
+    margin-bottom: 8px;
+}
+.CurrentCitynDate{
+    display: flex;
+    flex-flow: column   ;
+    align-items: center;
+}
+.Line{
+    width: 80px;
+    height: 2px;
+    background: white;
+    box-shadow: 0px 0px 4px 1px #fff;
+}
+.CurrentDesc{
+    font-size: 16px;
+    font-weight: 100;
+    /* text-shadow: 0px 0px 4px #000; */
+}
+.CurrentDeg{
+    font-size: 32px;
+}
+.SecondLevelDescWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.SecondLevelDescWrapper > div{
+    width: 50%;
+}
+.SecondLevelDescWrapper p{
+    font-size: 14px;
+    font-weight: 100;
+    /* text-shadow: 0px 0px 4px #000; */
+}
+.VLine{
+    height: 40px;
+    width: 1px;
+    background-color: white;
+    position: absolute;
+    top: 368px;
+    box-shadow: 0px 0px 4px 1px #fff;
+}
+
+@media (min-width: 600px){
+    .Current{
+        flex-flow: row;
+        padding: 24px 40px;   
+
+    }
+    .CurrentDetails{
+        order: 1;
+        width: 50%;
+    }
+    .CurrentCitynDate{
+        order: 2;
+        width: 50%;
+    }
+    .Line{
+        display: none;
+    }
+    .CurrentDeg{
+        font-size: 40px;
+    }
+    .VLine{
+        top: 300px;
+    }
+}

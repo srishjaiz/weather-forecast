@@ -16,5 +16,6 @@
 @media (min-width: 600px){
     .WeatherCard{
         width: 80%;
+        max-width: 800px;
     }
 }
