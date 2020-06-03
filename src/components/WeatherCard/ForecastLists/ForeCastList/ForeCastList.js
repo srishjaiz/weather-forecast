@@ -12,7 +12,7 @@ const ForeCastList = props => {
                 <p className={classes.MainInfoSub}>22<sup style={{textTransform:"lowercase"}}>o</sup>C</p>
             </div>
             <div className={classes.SecondaryInfo}>
-                <p>Time</p>
+                <p className={classes.SecondaryInfoSuper}>Time</p>
                 <p>Date</p>
                 <p>Desc text...</p>
             </div>

@@ -1,5 +1,6 @@
 .App{
     text-align: center;
+    background-image: linear-gradient(#DE86A3, #5D5FF3);
 }
 header{
     position: sticky;

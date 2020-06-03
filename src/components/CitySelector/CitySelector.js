@@ -6,7 +6,7 @@ const CitySelector = props => {
         <div className={classes.CitySelector}>
             <form className={classes.CitySelectorForm} action="">
             <label htmlFor="color">Search city: </label>
-            <input type="text" placeholder='Enter city here...' id="color" list="colors_data"/>
+            <input type="text" placeholder='Search your city...' id="color" list="colors_data"/>
             <datalist id="colors_data">
                 <option value="red"></option>
                 <option value="orange"></option>
